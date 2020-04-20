@@ -169,7 +169,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/cldc,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -183,7 +183,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/concepts,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -197,7 +197,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/fp,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -211,7 +211,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/jni,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -225,7 +225,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/typechecker,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
