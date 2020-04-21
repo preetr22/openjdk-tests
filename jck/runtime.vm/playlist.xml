@@ -22,7 +22,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/constantpool,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -36,7 +36,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/jdwp,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -51,7 +51,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/jvmti,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -68,7 +68,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/jvmti,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 			$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -86,7 +86,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/overview,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -100,7 +100,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/classfmt,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -117,7 +117,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/module,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -134,7 +134,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/verifier,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -152,7 +152,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/instr,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -169,7 +169,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/cldc,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -183,7 +183,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/concepts,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -197,7 +197,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/fp,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -211,7 +211,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/jni,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -225,7 +225,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=vm/typechecker,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>sanity</level>
+			<level>1sanity</level>
 		</levels>
 		<groups>
 			<group>jck</group>

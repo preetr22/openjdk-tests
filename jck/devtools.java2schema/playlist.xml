@@ -22,7 +22,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=java2schema/CustomizedMapping,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=DEVTOOLS$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>special</level>
+			<level>1special</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -39,7 +39,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=java2schema/DefaultMapping,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=DEVTOOLS$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>special</level>
+			<level>1special</level>
 		</levels>
 		<groups>
 			<group>jck</group>
