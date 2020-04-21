@@ -22,7 +22,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/BINC,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -39,7 +39,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/CLSS,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -56,7 +56,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/CONV,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -73,7 +73,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/EXPR,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -90,7 +90,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/INTF,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -107,7 +107,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/LMBD,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -124,7 +124,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/ARR,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -141,7 +141,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/DASG,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -158,7 +158,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/EXCP,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -175,7 +175,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/EXEC,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -192,7 +192,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/FP,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -209,7 +209,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/ICLS,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -226,7 +226,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/INFR,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -243,7 +243,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/MOD,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -260,7 +260,7 @@
 		<command>$(JCK_CMD_TEMPLATE)-test-args=$(Q)tests=lang/NAME,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -277,7 +277,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/PKGS,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -294,7 +294,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/THRD,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -311,7 +311,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/TYPE,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -328,7 +328,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/ANNOT,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -345,7 +345,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/LEX,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
@@ -362,7 +362,7 @@
 		<command>$(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=lang/STMT,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=COMPILER$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
-			<level>extended</level>
+			<level>1extended</level>
 		</levels>
 		<groups>
 			<group>jck</group>
